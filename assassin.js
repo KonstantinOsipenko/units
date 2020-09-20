@@ -1,0 +1,1 @@
+const assassin = new Unit("Assassin", 500, 1000, 550);
