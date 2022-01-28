@@ -1,33 +1,10 @@
-const archerUnit = (document.getElementById(
-  "first_unit_type"
-).innerText = archer.getType());
-const assassisnUnit = (document.getElementById(
-  "second_unit_type"
-).innerText = assassin.getType());
-const priestUnit = (document.getElementById(
-  "third_unit_type"
-).innerText = priest.getType());
-archer.getStat();
-assassin.getStat();
-priest.getStat();
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeHealth()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
-archer.changeStamina()
+const units = [
+  new Unit('Assassin', 90, 100),
+  new Unit('Priest', 50, 100),
+  new Unit('Archer', 70, 60)
+];
+
+const squad = new Squad(units);
+
+squad.createSquad();
+
